@@ -1,0 +1,420 @@
+header, section, footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	background-attachment: fixed;
+	font-family:  Verdana, Tahoma,!important;
+	background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#99ff33), to(#00ccff));
+}
+header {
+	height: 150px;
+	top: 0;
+	box-shadow: 5px 5px 7px rgba(0, 0, 102,153);
+	border-radius: 7px;
+	z-index: 1000;
+	background: -webkit-gradient(linear, 50% 50%, 30% 200%, from(#adad85), to(#33cc33));
+}
+#marca{
+	width: 700px;
+	float: left;
+	padding: 35px;
+	box-sizing: border-box;
+	margin-top: -15px;
+}
+h1, h2{
+	margin: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 20px;
+}
+#logo{
+	width: 260px;
+	float: left;
+}
+#ini_der{
+	width: 740px;
+	height: 600px;
+	margin-top: 10px;
+	background-image: cover;
+	float: right;
+}
+.imagenes_ancho{
+	width: 100%
+}
+.fondo_trans{
+	background-color: rgba(0,0,0,0.3);
+}
+#ini_izq{
+	width: 200px;
+	height:600px;
+	float:left ;	
+}
+h3 {
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #339933; 
+	border: 2.5px solid #3333cc;
+	border-radius: 7px; 
+	color: #ffffff;
+	font-family: 'Lobster', cursive; 
+}
+.txt_negro {
+	font-size: 15px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+}		
+#patagonia{
+	width: 960px;
+	margin-top: 620px;
+	height: 500px;
+	/*background-color:  #0000ff;*/
+}
+/*---------*/
+.container{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;/* es el maximo*/
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;/*para que se oculte todo lo que hay fuera de la tarjeta*/
+	background-color: #fff;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);/*0 de rojo, verde y azul 0.2 de transparente*/
+	cursor: default;
+	transition: all 400ms ease; /*para que el efecto sea suave y dure ese tiempo*/
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	transform: translateY(-3%); /*cuando pasamos es mouse por la tarjeta se traslada verticalmente un 3%*/
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido p{
+	line-height: 1.5; /*hace el espaciado entre lineas*/
+	color: #6a6a6a;
+}
+.card .contenido h3{
+	font-weight: 400;/*le reduce la negrita*/
+	margin-bottom: 15px; /*para que empuje hacia abajo los párrafos*/
+}
+.card .contenido a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px; /*para que leer mas se empuje hacia abajo*/
+	color: #2fb4cc;
+	border: 1px solid  #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+}
+.card .contenido a:hover{
+	background-color: #2fb4cc;
+	color: #fff;
+}
+#planificar{
+	margin-top: 10px;
+	width: 960px;
+	height: 700px;
+}
+#pla2{
+	float: left;	
+}
+#pla2, #pla3, #pla4, #pla5, #pla6, #pla7{
+	padding: 10px;
+	text-align: justify;
+	width: 480px;
+	height: 280px;
+	margin-top: 10px;
+}
+#pla3{
+	float: right;
+}
+#pla4{
+	float: left;
+}
+#pla5{
+	float: right;
+}
+#pla6{
+	float: left;
+}
+#pla7{
+	float: right;
+}
+#excursiones{
+	width: 960px;
+	height: 80px;
+	margin-top: 175px;
+}
+ #pla1{
+	width: 960px;
+	height: 80px;
+}
+#pla1 ul {
+	margin-top: 10px;
+	padding: 0;
+	list-style-type: none;
+}
+#pla1 ul li {
+	display: inline-block; /*para que los botones queden en bloque*/
+}
+#pla1 ul li a{
+	display: inline-block; /*para que tengan propiedades de bloque*/
+	padding: 27px 78px; /*modifica el tamaño del boton*/
+	color:  #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	border: solid;
+	font-size: 14px;
+	background-color: #3333cc;
+	border: 2.5px solid #00ff00;
+	border-radius: 7px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	box-shadow: 5px 5px 7px rgba(107, 107, 71, 102);
+}
+#pla1 ul li a:hover{
+	background-color: #00ff99; /*se le puede modificar el paddin para que se agranden los botones al pasar el mouse y poner una i*/
+	color: #000000;
+	border: 2.5px solid #0000cc;
+}
+#con_izq, #con_der{
+	width: 400px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#con_izq{
+	float: left;
+	margin-left: 100px;
+}
+#con_der{
+	float: right;
+	margin-left: 10px;
+}
+footer{
+	width: 960px;
+	height: 250px;
+	background-color: #3333ff;
+	border: 2.5px solid #4d0099;
+	border-radius: 7px;
+	box-shadow: 5px 5px 7px rgba(153, 153, 255, 102);
+	clear: both;
+}
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header, section, footer{
+	width: 580px;		
+}
+#marca{
+	width: 150px;
+}
+#logo{
+	width: 100px;
+}
+
+#botonera_principal{
+	width: 330px;
+}
+ul li a, #botonera_ser ul li a {
+	padding: 12px 8px; /*modifica el tamaño del boton*/	
+}
+#inicio{
+	height: 40px;
+}
+li a {
+	padding: 30px 10px;/*achico el paddin de ancho para que entren los botones*/
+}
+#inicio{
+	width: 400px; /*lo achico un poco para que no ocupe tanta pantalla*/
+}
+#contacto{
+	/*clear: both;*/
+	width: 580px;
+}
+
+footer{
+	/*height: auto;*/
+	position: relative;
+	bottom: 0;
+}
+
+}/*fin de @media 600px a 1023px*/
+
+@media all and (max-width: 599px){
+
+header, section, footer {
+	width: 90%;
+}
+header {
+	height: auto;
+	position: relative;/*no se puede sacar el sticky, por eso pongo relative*/
+	top: 0;
+}
+#marca{
+	width: 100%;
+	height: auto;/*deberia ser auto*/
+	float: none;/*para que los botones no se vengan a la cabecera y queden debajo*/	
+	margin-top: 20px;
+}
+h1{
+	text-align: center;/*para que el título quede centrado en el ancho*/
+}
+#logo{
+	width: 100%;
+	float: none;
+	height: auto;/*deberia ser auto*/
+	text-align: center;
+	margin-top: -30px;
+}
+#botonera_principal{
+	width: 100%;
+	float: none;
+	height: auto;
+}
+ul li {
+	display: block;
+}
+li a {
+	width: 100%;/*le agrego ancho para que el botón funcione en todo el ancho del dispositivo*/
+	/*padding: 10px 0px;*//*le saco el padding porque no tengo el box sizing y el botón se sobresaldria y achico el vertical*/
+	text-align: center;/*para centrar el nombre del boton*/
+}
+#ini_der{
+	width: 100%;
+	height: auto;
+	float: none;
+}
+#ini_izq{
+	width: 100%;
+	height:auto;
+	float:none;	
+}
+#inicio{
+	height: auto;	/*no poner alto automático porque tiene imagen de fondo*/
+}
+#patagonia{
+	width: 100%;
+	margin-top: 20px;
+	height: auto;
+}
+.container{
+	width: 100%;
+	display: block;
+	max-width: 490px;
+}
+.card{
+	width: 100%;
+	margin-left: 0px;
+}
+.card img{
+	width: 100%;
+	height: auto;
+}
+#planificar{
+	width: 100%;
+	height: auto;
+}
+#excursiones{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+  #pla1{
+	width: 100%;
+	height: auto;
+}
+#pla1 ul li {
+	display: block; /*inline-block;*/ /*para que los botones queden en bloque*/
+}
+#pla1 ul li a{
+	display: /*inline-block*/block; /*para que tengan propiedades de bloque*/
+	padding: 27px 54px; /*modifica el tamaño del boton*/
+	color:  #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	border: solid;
+	font-size: 14px;
+	background-color: #3333cc;
+	border: 2.5px solid #00ff00;
+	border-radius: 7px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	box-shadow: 5px 5px 7px rgba(107, 107, 71, 102);
+	z-index: 99;
+}
+#pla1 ul li a:hover{
+	background-color: #00ff99; /*se le puede modificar el paddin para que se agranden los botones al pasar el mouse y poner una i*/
+	color: #000000;
+	border: 2.5px solid #0000cc;
+}
+#pla2{
+	float: none;	
+}
+#pla2, #pla3, #pla4, #pla5, #pla6, #pla7{
+	width: 100%;
+	height: auto;
+}
+#pla3{
+	float: none;
+}
+#pla4{
+	float: none;
+}
+#pla5{
+	float: none;
+}
+#pla6{
+	float: none;
+}
+#pla7{
+	float: none;
+}
+#con_izq, #con_der{
+	width: 40%;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#con_izq{
+	float: left;
+	margin-left: 0px;
+}
+#con_der{
+	float: right;
+	margin-left: 0px;
+}
+footer{
+	height: auto;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	margin-top: 10px;/*para que el footer no quede tapado por las cajas de arriba*/
+}
+
+}/*fin de @media 599*/
+

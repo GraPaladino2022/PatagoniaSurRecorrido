@@ -1,0 +1,427 @@
+
+header, section, footer{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto; /*para centrar*/
+	margin-bottom: 10px; /*para separar una caja de otra*/
+}
+body{
+	font-family: Verdana, Tahoma,!important;
+	color: #33ccff;
+	 background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#99ff33), to(#00ccff));
+    background-attachment: fixed;
+}
+header {
+	width: 960px;
+	height: 150px;
+	/*background-color: #3333ff;*/
+	/*position: sticky;*/
+	top: 0;
+	box-shadow: 5px 5px 7px rgba(0, 0, 102,153);
+	border-radius: 7px;
+	z-index: 1000;
+	/* background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#036fbc), to(#fa02fe));*/
+	background: -webkit-gradient(linear, 50% 50%, 30% 200%, from(#adad85), to(#33cc33));
+}
+#marca{
+	width: 700px;
+	float: left;
+	padding: 35px;
+	box-sizing: border-box;
+	margin-top: -15px;
+}
+#logo{
+	width: 260px;
+	float: left;
+}
+/*/+96857
+-
+<*/
+h3{
+	font-family: Verdana;
+	color: darkblue;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+h2{
+	font-family: Verdana;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.txt_negro {
+	font-size: 19px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: black;
+	/*font-weight: bold;*/
+}
+.txt_negro1 {
+	font-size: 14px;
+	text-align: center;
+	font-family: Verdana;
+	margin: 10;
+	color: yellow;
+	font-weight: bold;
+}	
+.txt_negrita{
+	font-weight: Verdana;
+	font-size: 18px;
+	margin: 10;
+	text-align: justify;
+	color: black;
+	font-weight: bold;
+}	
+.imagenes_ancho{
+	width: 100%;
+}
+#botonera_principal{
+	width: 960px;
+	font-weight: bold;
+	height: 150px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+ul li {
+	display: inline;
+	margin-top: 40;
+}
+
+li a {
+	border-radius: 40px;
+	display: inline-block; /*para que tengan propiedades de bloque*/
+	text-decoration: none;
+	padding-top: 10px;
+	box-sizing: border-box;
+	color:  white;
+	padding: 20px 40px;
+}
+
+ul li a:hover{
+	box-shadow: 0px 0px 50px #000000;
+	color: #0000ff;
+}
+/*#video{
+	width: 800px;
+	height: 400px;
+	margin-left: 30px;
+	background-color: #ffff00;
+}*/
+#video{
+	margin-top: 100px;
+}
+.video-responsive{
+	width: 100%;
+}
+#inicio {
+	width: 960px;
+	height: 110px;
+	margin-top: 20px;
+	margin-left: 170px;
+	/*background-color: grey;*/
+	box-shadow: 5px 5px 7px rgba(51, 153, 51, 102);
+	border: 2.5px solid #006600;
+	border-radius: 7px;
+	box-sizing: border-box;
+	margin-bottom: -70px;
+}
+#historia{
+	height: 1200px;
+}
+#his1_izq {
+	width: /*350*/470px;
+	/*background-color: #cc0000;*/
+	float: left;
+	margin-top: 2px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+#his1_der {
+	width: /*550*/470px;
+	/*background-color:  #009900;*/
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#his2_izq {
+	width: 470px;
+	height: 400px;
+	/*background-color: #222992;*/
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}	
+#his2_der{
+	width: 470px;
+	height: 400px;
+	/*background-color: #ffcc66;*/
+	float: right;
+	padding: 10px /*30px*/;
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}	
+#his3{
+	width: 960px; /*ocupa todo el ancho*/	
+	height: 380px;
+	/*background-color: red;*/
+	clear: both;
+}
+#trigal_izq {
+	width: 380px;
+	/*background-color: #999966;*/
+	height: 330px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+#trigal_der1 {	
+	margin-top: 260px;
+	float: left;
+	width: 550px;
+	/*background-color: #33ccff;*//*celeste*/
+	height: 330px;
+	float: right;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+h4{
+	font-family: Verdana;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+#malvinas_izq, #malv_izq, #mal_izq, #ma_izq {
+	width: 470px;
+	height: 340px;
+	float: left;
+	/*background-color: red;*/
+}
+#malvinas_der, #malv_der, #mal_der, #ma_der {
+	width: 470px;
+	height: 340px;
+	float: right;
+	/*background-color: yellow;*/
+}
+#guerra{
+	height: 380px;
+	/*margin-bottom: 140px;*/
+	/*background-color: blue;*/
+}
+#guerra_izq{
+	width: 380px;
+	/*background-color: #999966;*/
+	height: 380px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 80px;*/
+	margin-top: 20px;
+}
+#guerra_der1{
+	margin-top: 260px;
+	float: left;
+	width: 550px;
+	/*background-color: #33ccff;*//*celeste*/
+	height: 330px;
+	float: right;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+#final {
+	width: 960px;
+	height: 300px;
+	/*background-color: yellow;*/
+}
+footer{
+	background-image: url(imagenes/ba.JPG);
+	width: 960px;
+	height: 500px;
+	border: 2.5px solid #4d0099;
+	border-radius: 7px;
+	box-shadow: 5px 5px 7px rgba(153, 153, 255, 102);
+	/*clear: both;*/
+	margin-top: 1600px;
+	margin-left: 0px;
+}
+.txt_negro2 {
+	font-size: 20px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: white;
+}
+.txt_negro3 {
+	font-size: 30px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: darkblue;
+}	
+ul{
+	list-style-type: mone;/*saca los . de la i*/
+}
+#redes{
+	width: 70px;
+	height: /*32*/60px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+#nombre{
+	width: /*300*/840px;
+	height: 80px;
+	float: right;
+	margin-top: 300px;
+	margin-right: 10px;
+	margin-left: 50px;
+}
+.txt_foot {
+	font-size: 30px;
+	text-align: rigth;
+	font-family: Verdana;
+	margin: 10;
+	color: white;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header, section, footer{
+	width: 580px;	
+}
+
+
+} /*fin @media 600 a 1023*/
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 90%;
+}
+header{
+	height: auto;
+	position: relative;*//*como los botones los pongo en linea, el header no tape mucha pantalla*/
+	top: 0;
+}
+#marca {
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-left: -10px;
+}
+h3 {
+	text-align: center;
+}
+#logo{
+	display: none;
+}
+#botonera_principal{
+	display: none;
+}
+/*/+96857
+-
+<*/
+h2 {
+	text-align: center;
+}
+#inicio, #his3, #final  {
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+}
+#historia{
+	height: auto;
+}
+#his1_izq {
+	width: 100%;
+	float: none;
+}
+#his1_der {
+	width: 100%;
+	float: none;
+}
+#his2_izq {
+	width: 100%;
+	height: auto;
+	float: none;
+}	
+#his2_der{
+	width: 100%;
+	height: auto;
+	float: none;
+}
+#trigal_izq {
+	width: 100%;
+	height: auto;
+	float: none;
+}
+#trigal_der1 {	
+	float: none;
+	width: 100%;
+	height: auto;
+}
+ #malvinas_izq, #malv_izq, #mal_izq, #ma_izq, {
+	float: none;
+	width: 80%;
+	height: auto;		
+}
+#his1_der {
+	margin-right: -40px;
+}
+#malvinas_izq, #malv_izq, #mal_izq, #ma_izq {
+	width: 100%;
+	height: auto;
+	float: none;
+}
+#malvinas_der, #malv_der, #mal_der, #ma_der {
+	width: 100%;
+	height: auto;
+	float: none;
+}
+#guerra_izq{
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-bottom: 10px;
+}
+#guerra_der1{
+	float: none;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+#final {
+	width: 100%;
+	height: auto;
+	margin-top: 280px;
+}
+footer{
+	width: 100%;
+	height: 550px;
+	margin-top: 20px;
+}
+#redes{
+	width: 30%;
+	height: auto;
+}
+#nombre{
+	width: 70%;
+	height: auto;
+}
+
+
+
+}/*fin de @599px*/
+

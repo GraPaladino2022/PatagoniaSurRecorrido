@@ -1,0 +1,567 @@
+
+header, section, footer{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto; /*para centrar*/
+	margin-bottom: 10px; /*para separar una caja de otra*/
+}
+body{
+	font-family: Verdana, Tahoma,!important;
+	color: #33ccff;
+	 background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#99ff33), to(#00ccff));
+    background-attachment: fixed;
+}
+#marca{
+	width: 560px;
+	height: 80px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: -10px;
+	margin-left: 370px;
+	margin-bottom: 5px;
+}
+h6{
+	margin: 0;
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+	color: blueviolet;
+	font-weight: bold;
+	margin-top: 10px;
+	font-weight: bold;
+	/*background-color: #ffcc99;*/
+	border: 2.5px solid #009999;
+	border-radius: 7px; 
+	box-shadow: 5px 5px 7px rgba(107, 107, 71, 102);
+}
+#his{
+	width: 960px;
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	/*background-color: yellow;*/
+	margin-bottom: -5px;
+}
+#historia{
+	height: 450px;	
+}
+#his1_izq{
+	height: 300px;
+	width: 450px;
+	/*background-color: red;*/
+	float: left;
+	margin-top: 60px;
+}
+#his1_der{
+	height: 400px;
+	width: 450px;
+	/*background-color:  #009900;*/
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+h2{
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+h3{
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.txt_negro {
+	font-size: 19px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: black;
+}
+.txt_negrita{
+	font-weight: Verdana;
+	font-size: 18px;
+	margin: 10;
+	text-align: justify;
+	color: black;
+	font-weight: bold;
+}	
+.imagenes_ancho{
+	width: 100%;
+}
+#pm_izq {
+	width: 470px;
+	height: 650px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+#pm_der {
+	width: 470px;
+	height: 650px;
+	float: left;
+	margin-right: -50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+
+#pm_abder {
+	width: 470px;
+	height: 700px;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+#pm_abizq {
+	width: 470px;
+	height: 700px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+#pm1_abizq {
+	width: 470px;
+	height: 600px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+#pm1_abder {
+	width: 470px;
+	height: 600px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+#puertoM2{
+	width: 960px;
+	height: 1650px;
+	/*background-color: yellow;*/
+	margin-top: 2020px;
+}
+#comodoro{
+	width: 940px;
+	/*background-color: gray;*/
+	height: 2020px;
+	margin-bottom: 40px;
+}	
+#rg_izq {
+	width: 470px;
+	height: 1300px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	/*background-color: red;*/
+}
+#rg_der{
+	width: 470px;
+	height: 1300px;
+	float: right;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	/*background-color: blue;*/
+}
+#rg_abizq {
+	width: 460px;
+	height: 380px;
+	float: left;
+	/*background-color: yellow;*/
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+#rg_abder {
+	width: 460px;
+	height: 380px;
+	float: right;
+	/*background-color: gray;*/
+	margin-bottom: 40px;
+}
+#galería1, {
+	width: 960px; 	
+	height: 80px;
+	/*background-color: red;*/
+	background-size: cover;
+	margin-left: 120px;
+	clear: both;
+}
+#galería4{
+	width: 960px; 	
+	height: 920px;
+	/*background-color: red;*/
+	background-size: cover;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#galeria7{
+	width: 450px; 	
+	height: 120px;
+	float: left;
+	margin-bottom: 50px;
+	/*background-color: blue;*/
+}
+#regreso{
+	height: 360px;
+	width: 960px;
+	/*background-color: red;*/
+	margin-top: 40px;
+}
+#antiguos{
+	width: 960px;
+	height: 40px;
+	/*background-color: yellow;*/
+}
+#antiguos_izq{
+	width: 470px;
+	height: 1020px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	/*background-color: red;*/
+}
+#antiguos_der{
+	width: 470px;
+	height: 1020px;
+	float: right;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	/*background-color: blue;*/
+}
+#cueva0{
+	width: 960px;
+	height: 50px;
+	/*background-color: white;*/
+	clear: both;
+}
+#cueva1{
+	width: 400px;
+	height: 730px;
+	float: left;
+	/*background-color: green;*/
+	margin-bottom: 20px;
+}
+#cueva2{
+	width: 540px;
+	height: 730px;
+	float: right;
+	/*background-color: gray;*/
+	margin-bottom: 20px;
+}
+#cueva3 {
+	width: 960px;
+	height: 830px;
+	/*background-color: blue;*/
+}
+#final{
+	width: 960px;
+	height: 140px;
+	/*background-color: white;*/
+	margin-top: 840px;
+}
+footer{
+	width: 810px;
+	height: 400px;
+	border: 2.5px solid #4d0099;
+	border-radius: 7px;
+	box-shadow: 5px 5px 7px rgba(153, 153, 255, 102);
+	margin-top: 20px;
+	background-image: url(imagenes/calj.JPG);
+}
+a{
+	margin-left: 20px;
+	padding: 20px;
+}
+.txt_foot{
+	font-weight: Verdana;
+	font-size: 30px;
+	margin-right: 20px;
+	margin-top: -20px;
+	text-align: right;
+	color: black;
+	font-weight: bold;
+}
+.txt_foot1{
+	font-weight: Verdana;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 300px;
+	text-align: left;
+	color: black;
+	font-weight: bold;
+}
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header, section, footer{
+	width: 580px;	
+}
+
+#inicio{
+	height: 300px;
+}
+#historia{
+	height: 970px;
+}
+#his1_izq{
+	width: 280px;
+	float: none;
+	/*display: none; *//*para sacar esa caja*/
+}
+#his1_der{
+	width: 280px;
+	float: none;
+}
+#puertoM, #puertoM1{
+	width: 580px;
+}
+#puertoM2{
+	width: 580px;
+}
+/*---------*/
+/*.container{*/
+	/*width: 100%;
+	display: flex;*/
+	/*max-width:580px;/* es el maximo*/
+/*}*/
+/*.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;*//*para que se oculte todo lo que hay fuera de la tarjeta*/
+	/*background-color: #fff;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);/*0 de rojo, verde y azul 0.2 de transparente*/
+	/*cursor: default;
+	transition: all 400ms ease; /*para que el efecto sea suave y dure ese tiempo*/
+/*}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	transform: translateY(-3%); /*cuando pasamos es mouse por la tarjeta se traslada verticalmente un 3%*/
+/*}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido p{
+	line-height: 1.5; *//*hace el espaciado entre lineas*/
+	/*color: #6a6a6a;
+}
+.card .contenido h3{
+	font-weight: 400;*//*le reduce la negrita*/
+	/*margin-bottom: 15px;*/ /*para que empuje hacia abajo los párrafos*/
+/*}
+.card .contenido a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px; *//*para que leer mas se empuje hacia abajo*/
+	/*color: #2fb4cc;
+	border: 1px solid  #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+}
+.card .contenido a:hover{
+	background-color: #2fb4cc;
+	color: #fff;
+}*/
+/*#comodoro{
+	height: 2000px;
+	margin-bottom: 260px;
+}*/	
+#rg_izq, #rg_der, #rg_abizq, #rg_abder {
+	width: 280px;
+	height: 1300px;
+	float: none;
+}
+#galería1, {
+	width: 580px; 	
+	height: 80px;
+	/*background-color: red;*/
+	/*background-size: cover;*/
+	/*margin-left: 120px;*/
+	/*clear: both;*/
+}
+#galería3 {
+	height: 60px;
+	width: 580px;
+}
+#galería4{
+	width: 580px; 	
+	height: 400px;
+}
+#galería5{
+	width: 580px;
+	height: 120px;
+}
+#galería6{
+	height: 100px;
+	width: 580px;	
+}
+#galeria7{
+	width: 580px; 	
+	height: 120px;
+}
+#galeria8{
+	width: 580px; 	
+	height: 120px;
+}
+#galería9 {
+	height: 60px;
+	width: 580px;
+}
+#regreso{
+	height: 100px;
+	width: 580px;
+}
+#antiguos_izq{
+	width: 580px;
+	height: 1100px;
+	float: none;
+}
+#antiguos_der{
+	width: 580px;
+	height: 1100px;
+	float: none;
+}
+#cueva0{
+	width: 580px;
+	height: 50px;
+}
+#cueva1{
+	width: 580px;
+	height: 800px;
+	float: none;
+}
+#cueva2{
+	width: 580px;
+	height: 800px;
+	float: none;
+}
+#cueva3 {
+	width: 580px;
+	height: 800px;
+	float: none;
+}
+#final{
+	width: 580px;
+	height: 90px;
+}
+footer{
+	width: 580px;
+	height: 400px;
+	float: none;	
+}
+
+
+} /*fin @media 600 a 1023*/
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 90%;
+}
+
+#marca{
+	width: 100%;
+	height: auto;
+	margin-left: 0;
+}
+#his, #puertoM, #puertoM, #puertoM2, #comodoro, #galería1, #galería3, #galería5, #galería6, #galeria8, #galería9 {
+	width: 100%;
+	height: auto;
+}
+#his1_izq, #his1_der, #rg_izq, #rg_der, #rg_abizq, #rg_abder, #galería4, #galeria7 {
+	height: auto;
+	width: 100%;
+	float: none;
+}
+#his1_izq, #his1_der, #pm_der {
+	margin-top: 10px;
+}
+#rg_abizq{
+	margin-top: 10px;
+}
+ #rg_abder{
+ 	margin-top: -30px;
+ }
+ #galería1 {
+ 	margin-top: -30px;
+ }
+ #galería4{
+ 	margin-top: -10px;
+ }
+#pm_izq, #pm_der, #pm_abder,  #pm_abizq, #pm1_abizq, #pm1_abder{
+	width: 100%;
+	height: auto;
+	float: none;	
+}
+#pm_izq{
+	margin-top: 320px;
+}
+#puertoM2{
+	margin-top: -5px;
+}
+#rg_der{
+	margin-top: 10px;
+}
+#galería5{
+	margin-top: -1px;
+}
+/*---------*/
+/*.container{
+	width: 100%;*/
+	/*display: flex;*/
+	/*max-width: 599px;*//* es el maximo*/
+/*}
+.card img{
+	width: 100%;
+	height:autopx;
+}*/
+#regreso, #cueva0, #final, #antiguos {
+	width: 100%;
+	height: auto;	
+}
+#antiguos_izq, #antiguos_der, #cueva1, #cueva2, #cueva3 {
+	width: 100%;
+	height: auto;
+	float: none;	
+}
+#final{
+	margin-top: 10px;
+}
+footer{
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+}
+.txt_foot{
+	margin-right: 10px;
+	margin-top: -20px;
+}
+.txt_foot1{
+	margin-left: 0px;
+	text-align: center;
+}
+/*ul{
+	list-style-type: mone;*//*saca los . de la i*/
+}/*fin de @599px
+

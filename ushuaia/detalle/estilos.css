@@ -1,0 +1,381 @@
+
+header, section, footer{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto; /*para centrar*/
+	margin-bottom: 10px; /*para separar una caja de otra*/
+}
+body{
+	font-family: Verdana, Tahoma,!important;
+	color: #33ccff;
+	 background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#99ff33), to(#00ccff));
+    background-attachment: fixed;
+}
+/+96857
+-
+<
+
+#historia{
+	height: 1200px;
+}
+#his1_izq{
+	width: 470px;
+	float: left;
+	margin-top: 9px;
+}
+h3{
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+.txt_negro {
+	font-size: 14px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: black;
+}
+.txt_negro1 {
+	font-size: 14px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: blue;
+}	
+.imagenes_ancho{
+	width: 100%;
+}
+#his1_der{
+	width: 470px;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#his2_izq {
+	width: 470px;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 320px;
+}	
+#his2_der{
+	width: 470px;
+	height: 300px;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: -10px;
+	margin-bottom: 320px;
+}	
+#his3{
+	width: 960px; 
+	height: 580px;
+	margin-bottom: 40px;
+	clear: both;
+}
+#trigal_izq{
+	width: 470px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: /*-90*/10px;
+}
+#trigal_der{
+	width: 470px;
+	height: 80px;
+	float: right;
+	margin-bottom: 10px;
+	margin-top: /*-90*/10px;
+}
+#galeria1{
+	width: 470px; 	
+	height: 320px;
+	margin-top: 260px;
+	float: left;
+}
+#galeria2{
+	width: 450px; 	
+	height: 320px;
+	margin-top: 300px;
+	float: right;
+}
+#galeria3{
+	width: 960px; 	
+	height: 110px;
+	margin-top: 10px;
+	clear: both;
+}
+#galeria4{
+	width: 450px; 	
+	height: 320px;
+	margin-top: 260px;
+	float: left;
+}
+#galeria5{
+	width: 470px; 	
+	height: 320px;
+	float: right;
+	margin-top: 260px;
+}
+#galeria6{
+	width: 450px; 	
+	height: 320px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+#galeria7{
+	width: 470px; 	
+	height: 320px;
+	float: right;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+#galeria8{
+	width: 960px; 	
+	height: 620px;
+	margin-top: 320px;
+}
+h2{
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 25px;
+}
+footer{
+	background-image: url(imagenes/ushcru.JPG);
+	width: 960px;
+	height: /*450*/180px;
+	border: 2.5px solid #4d0099;
+	border-radius: 7px;
+	box-shadow: 5px 5px 7px rgba(153, 153, 255, 102);
+	/*clear: both;*/
+	margin-top: 980px;
+	margin-left: 190px;
+}
+.txt_negro2 {
+	font-size: 20px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: black;
+}	
+ul{
+	list-style-type: mone;/*saca los . de la i*/
+}
+#redes{
+	width: 70px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+#nombre{
+	width: 840px;
+	height: 80px;
+	float: right;
+	margin-right: 10px;
+	margin-left: 50px;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header, section, footer{
+	width: 580px;	
+}
+
+#inicio{
+	height: 300px;
+}
+#historia{
+	height: 970px;
+}
+#his1_izq{
+	display: none; /*para sacar esa caja*/
+}
+#his1_der{
+	width: 580px;
+	margin-bottom: 10px;
+}
+#his2_izq{
+	width: 580px;
+	height: 160px;
+	margin-bottom: 10px;
+}	
+#his2_centro{
+	width: 340px;
+}
+#his2_der{
+	width: 230px;
+}	
+#his3{
+	width: 580px; /*ocupa todo el ancho*/
+}	
+#trigal_izq{
+	width: 340px;
+}
+
+#trigal_der{
+	width: 230px;
+}
+#galeria1{
+	height: 290px;
+	background-color: #00ff00;
+}
+#galeria2{
+	height: 290px;
+}
+#galeria3{
+	height: 290px;
+}
+#galeria4{
+	height: 290px;
+}
+#galeria5{
+	height: 290px;
+}
+#galeria6{
+	height: 290px;
+}
+#galeria7{
+	height: 290px;
+}
+#galeria8{
+	height: 290px;
+}
+footer{
+	background-color: #660066;
+	height: 150px;
+	clear: both;
+}
+#redes{
+	width: 300px;
+	height: 40px;
+	float: right;
+	background-color: pink;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+} /*fin @media 600 a 1023*/
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 90%;
+}
+header{
+	height: auto;
+	position: relative;/*como los botones los pongo en linea, el header no tape mucha pantalla*/
+	top: 0;
+}
+
+#foto{
+	width: 100%;
+	height: auto;
+}
+#titulo{
+	width: 100%;
+	height: auto;
+}
+ #his1_izq, #his1_der, #his2_izq, #his2_der {
+	width: 100%;
+	height: auto;
+	float: none; 
+}
+#historia{
+	height: auto;
+}
+#his2_izq {
+	margin-top: 10px;
+}	
+#his2_der{
+	margin-top: -330px;
+}	
+#his3{
+	width: 100%; /*ocupa todo el ancho*/
+	height: 300px; /*no a el auto porque tiene una imagen*/
+	margin-top: -330px;
+}	
+#trigal_izq, #trigal_der{
+	width: 100%;
+	height: auto;
+}
+#trigal_izq{
+	margin-top: -60px;
+}
+#trigal_der{
+	margin-top: 0px;
+}
+#galeria{
+	float: none;
+}
+#galeria1{ 	
+	height: auto;
+	margin-top: 40px;
+	width: 98%;
+}
+#galeria2{
+	width: 100%; 	
+	height: auto;
+	margin-top: 30px;
+}
+#galeria3{
+	width: 100%; 	
+	height: auto;
+}
+#galeria4{
+	height: auto;
+	margin-top: 30px;
+	width: 98%;
+	background-color: red;
+}
+#galeria5{
+	width: 98%; 	
+	height: auto;
+	float: none;
+	margin-top: 320px;	
+}
+#galeria6{
+	width: 98%; 	
+	height: auto;
+	float: none;
+	margin-top: 20px;
+	margin-bottom: 40px;	
+}
+#galeria7{
+	width: 100%; 	
+	height: auto;
+	float: none;
+	margin-top: 0px;
+}
+#galeria8{
+	width: 100%; 	
+	height: auto;
+	margin-top: 120px;
+	margin-left: 0px;
+}
+footer{
+	width: 80%; /*ocupa todo el ancho*/
+	height: auto; /*no a el auto porque tiene una imagen*/
+	margin-top: 30px;
+	margin-left: 40px;
+}
+#redes{
+	width: 40%;
+	height: auto;
+	float: none;
+}
+#nombre{
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-left: 20px;
+}	
+
+
+}/*fin de @599px*/
+

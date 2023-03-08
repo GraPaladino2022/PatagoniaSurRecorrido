@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header, section, footer{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto; /*para centrar*/
+	margin-bottom: 10px; /*para separar una caja de otra*/
+}
+body{
+	font-family: Verdana, Tahoma,!important;
+	color: #33ccff;
+	 background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#99ff33), to(#00ccff));
+    background-attachment: fixed;
+}
+/+96857
+-
+<
+body{
+	font-family: Prata, serif;
+	background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#99ff33), to(#00ccff));
+	display: flex;
+	height: 120vh;
+}
+.grid{
+	background: #fff
+	height: 120vh;/*le da la altura a la imagen*/
+	width: 90*%;
+	max-width: 1023px;
+	margin-left: 155px;
+	/*margin: auto;*/ /*para que lo centre porque con flex box lo centra vertical y horizontalmente*/
+	box-shadow: 0 0 30px -10px rgba(138, 135, 135, 0.5);
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	overflow: hidden; /*para que todo lo que sobresale del elemento grid desaparezca*/
+}
+/*creamos un pseudo elemento*/
+.grid::before{
+	content: "";
+	grid-column: 1/-1;
+	grid-row: 1/-1; /*para que lea desde la primera hasta la última*/
+	background-image: url(imagenes/cardc.JPG);
+	background-size: cover; /*para que se ajuste al elemento*/
+	background-position: right top;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /*es el inicio de la animación*/
+	animation: show 2s cubic-bezier(.24,.5,.8,.3) forwards; /*el forwards se pone para que la imagen quede en pantalla*/
+	/*ease hace que la animación empieza rápido y termina lento, para regular ésto ir a cubic-bezier.com y regular en la curva la forma
+	en que quiero que se mueva. también se puede poner ease-auot que anima directamente*/
+}
+.grid_texts{
+	grid-row: 2/-2; /*va de la linea 2 a la penúltima linea*/
+	grid-column: 2/8;
+	z-index: 1; /*para que la imagen no tape el texto sino al reves*/
+	display: flex; /*pone los titulos uno al lado del otro*/
+	flex-direction: column; /*para poner el grupo en columnas*/
+	justify-content: center; /*para centrarlo verticalmente ya que estamos trabajando en columnas*/
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	animation: show 1s 2s cubic-bezier(.24,.5,.8,.3) forwards; /*para que espere 1 segundo para que primero pase la imagen y
+	despues los titulos*/
+}
+.grid_title{
+	font-size: 3rem;
+	color: white;
+}
+.grid_title--transform{
+	font-family: 'Playfair Display', serif;
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+@keyframes show{
+	to{
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	}
+}
+#cabecera{
+	width: 960px;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 175px;
+	box-shadow: 5px 5px 7px rgba(51, 153, 51, 102);
+	z-index: 99;
+	border: 2.5px solid #006600;
+	border-radius: 7px;
+}
+h1{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+.destacado{
+	font-weight: Verdana;
+	font-size: 20px;
+	margin: 10;
+	text-align: justify;
+	color: black;
+}
+h3{
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+
+#botonera_principal ul li a:hover {
+	background-color: lavenderblush; /*se le puede modificar el paddin para que se agranden los botones al pasar el mouse y poner una i*/
+}
+#historia{
+	height: 1200px;
+}
+#his1_izq{
+	width: 470px;
+	float: left;
+	margin-top: 9px;
+}
+h3{
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+.txt_negro {
+	font-size: 14px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: black;
+}
+.txt_negro1 {
+	font-size: 14px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+	color: blue;
+}	
+.imagenes_ancho{
+	width: 100%;
+}
+#his1_der{
+	width: 470px;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#his2_izq {
+	width: 470px;
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 10*px;
+	margin-bottom: 320px;
+}	
+#his2_der{
+	width: 470px;
+	height: 300px;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: -10px;
+	margin-bottom: 320px;
+}	
+#his3_izq{
+	margin-top: 20px;
+	width: 450px; /*ocupa todo el ancho*/	
+	height: 450px;
+	float: left;
+	clear: both;
+}
+#his3_der{
+	margin-top: 20px;
+	width: 450px; /*ocupa todo el ancho*/	
+	height: 450px;
+	float: right;
+}
+#trigal_izq{
+	width: 470px;
+	height: 480px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: -90px;
+}
+#trigal_der{
+	width: 470px;
+	height: 480px;
+	float: right;
+	margin-bottom: 10px;
+	margin-top: -90px;
+}
+#galeria1{
+	width: 470px; 	
+	height: 400px;
+	margin-top: 260px;
+	float: left;
+}
+#galeria2{
+	width: 450px; 	
+	height: 400px;
+	margin-top: 280px;
+	float: right;
+}
+#galeria3{
+	width: 960px; 	
+	height: 110px;
+	clear: both;
+}
+#galeria8{
+	width: 960px; 	
+	height: 620px;
+	margin-top: 320px;
+}
+h2{
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+footer{
+	width: 960px;
+	height: 280px;
+	border: 2.5px solid #4d0099;
+	border-radius: 7px;
+	box-shadow: 5px 5px 7px rgba(153, 153, 255, 102);
+	margin-left: 180px;
+	background-image: url(imagenes/foot.JPG);
+}
+.txt_negro2 {
+	font-size: 20px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10px;
+	color: black;
+}	
+.txt_foot {
+	font-size: 40px;
+	text-align: right;
+	font-family: Verdana;
+	color: skyblue;
+}	
+ul{
+	list-style-type: mone;/*saca los . de la i*/
+}
+#redes{
+	width: 70px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+#nombre{
+	width: 840px;
+	height: 80px;
+	float: right;
+	margin-right: 10px;
+	margin-left: 50px;
+}
+h4{
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 100%;
+}
+.grid{
+	width: 100%;
+	max-width: 100%;
+	margin-left: 0px;
+}
+.grid_title{
+	font-size: 2rem;
+}
+.grid_title--transform{
+	font-size: 2.5rem;
+}
+#cabecera{
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+	margin-bottom: 40px;
+}
+#excursiones{
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+}
+header, section, footer{
+	width: 580px;	
+}
+
+#inicio{
+	height: 300px;
+}
+#historia{
+	height: 970px;
+}
+#his1_izq{
+	/*display: none; para sacar esa caja*/
+
+}
+#his1_der{
+	width: 580px;
+	margin-bottom: 10px;
+}
+#his2_izq{
+	width: 580px;
+	height: 160px;
+	margin-bottom: 10px;
+}	
+#his2_centro{
+	width: 340px;
+}
+#his2_der{
+	width: 230px;
+}	
+#his3{
+	width: 580px; /*ocupa todo el ancho*/
+}	
+#trigal_izq{
+	width: 340px;
+}
+
+#trigal_der{
+	width: 230px;
+}
+#galeria1{
+	height: 290px;
+	background-color: #00ff00;/*lime*/
+}
+#galeria2{
+	height: 290px;
+}
+#galeria3{
+	height: 290px;
+}
+#galeria4{
+	height: 290px;
+}
+#galeria5{
+	height: 290px;
+}
+#galeria6{
+	height: 290px;
+}
+#galeria7{
+	height: 290px;
+}
+#galeria8{
+	height: 290px;
+}
+footer{
+	background-color: #660066;
+	height: 150px;
+	clear: both;
+}
+#redes{
+	width: 300px;
+	height: 40px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+} /*fin @media 600 a 1023*/
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 90%;
+}
+header{
+	height: auto;
+	position: relative;/*como los botones los pongo en linea, el header no tape mucha pantalla*/
+	top: 0;
+}
+ #his1_izq, #his1_der, #his2_izq, #his2_der, #his3_izq, #his3_der{
+	width: 100%;
+	height: auto;
+	float: none; /*para que marca ocupe todo el ancho*/
+}
+#historia{
+	height: auto;
+}
+#his1_izq{
+	margin-bottom: 30px;
+}
+#his2_izq {
+	margin-top: 10px;
+}	
+#his2_der{
+	margin-top: 10px;
+	margin-bottom: -20px;
+}	
+#his3_izq, {
+	margin-top: -500px;
+}	
+#his3_der{
+	margin-top: 40px; 
+	margin-bottom: 70px;
+}
+#trigal_izq, #trigal_der{
+	width: 100%;
+	height: auto;
+}
+#trigal_izq{
+	margin-top: -60px;
+}
+#trigal_der{
+	margin-top: 0px;
+	/*height: 240px;*//*cambiar por auto cuando haya comentarios*/
+}
+#galeria{
+	float: none;
+}
+#galeria1{ 	
+	height: auto;
+	margin-top: 40px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#galeria2{
+	width: 100%; 	
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	float: none;
+}
+#galeria3{
+	width: 100%; 	
+	height: auto;
+}
+#galeria8{
+	width: 100%; 	
+	height: auto;
+	margin-top: 30px;
+	margin-left: 0px;
+}
+footer{
+	width: 80%; /*ocupa todo el ancho*/
+	height: auto; /*no a el auto porque tiene una imagen*/
+	margin-top: 30px;
+	margin-left: /*70*/50px;
+}
+#redes{
+	width: 40%;
+	height: auto;
+	float: none;
+}
+#nombre{
+	width: 100%;
+	height: auto;
+	float: none;
+}	
+.txt_foot {
+	font-size: 20px;
+	text-align: justify;
+}	
+}	
+
+}/*fin de @599px*/
+
