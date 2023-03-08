@@ -45,7 +45,7 @@ body{
 	content: "";
 	grid-column: 1/-1;
 	grid-row: 1/-1; /*para que lea desde la primera hasta la última*/
-	background-image: url(imagenes/cardc.JPG);
+	background-image: url(imagenes/cardc.jpg);
 	background-size: cover; /*para que se ajuste al elemento*/
 	background-position: right top;
 	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /*es el inicio de la animación*/
@@ -231,7 +231,7 @@ footer{
 	border-radius: 7px;
 	box-shadow: 5px 5px 7px rgba(153, 153, 255, 102);
 	margin-left: 180px;
-	background-image: url(imagenes/foot.JPG);
+	background-image: url(imagenes/foot.jpg);
 }
 .txt_negro2 {
 	font-size: 20px;
