@@ -30,7 +30,7 @@ body{
 	content: "";
 	grid-column: 1/-1;
 	grid-row: 1/-1; /*para que lea desde la primera hasta la última*/
-	background-image: url(imagenes/colage.PNG);
+	background-image: url(imagenes/colage.png);
 	background-size: cover; /*para que se ajuste al elemento*/
 	background-position: right top;
 	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /*es el inicio de la animación*/
